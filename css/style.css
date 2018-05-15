@@ -2,6 +2,17 @@ html {
 	font-size: 62.5%;
 }
 
+a {
+	text-decoration: none;
+	color: #222;
+	border-bottom: 1px solid #222;
+}
+
+a:hover {
+	color: #777;
+	border-bottom: 1px solid #777;
+}
+
 body {
 	padding: 2rem;
 	font-family: "Roboto", sans-serif;
@@ -90,6 +101,7 @@ h4 {
 	margin: 0.5rem;
 	text-decoration: none;
 	color: #222;
+	border-bottom: none;
 }
 
 .social a:hover {
@@ -137,17 +149,6 @@ nav li.logo a {
 	font-weight: bold;
 	background: #556270;
 	border-radius: 20px;
-}
-
-nav a {
-	text-decoration: none;
-	color: #222;
-	border-bottom: 1px solid #222;
-}
-
-nav a:hover {
-	color: #777;
-	border-bottom: 1px solid #777;
 }
 
 section {

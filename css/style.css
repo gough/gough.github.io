@@ -31,18 +31,23 @@ header {
 header a.head {
 	text-decoration: none;
 	color: #000;
+	border-bottom: none;
+	border-radius: 99rem;
+	display: block;
+	width: 125px;
+	height: 125px;
+	margin: 2rem auto;
+	box-shadow: 0 0px 4px 0 rgba(0,0,0,0.15), 0 0px 12px 0 rgba(0,0,0,0.10);
 }
 
 header a.head:hover {
 	color: #666;
-	box-shadow: 0 0px 4px 0 rgba(0,0,0,0.18), 0 0px 12px 0 rgba(0,0,0,0.15);
 	opacity: .8;
 }
 
 header img {
 	width: 125px;
 	margin-bottom: 2rem;
-	margin-top: 2rem;
 }
 
 header img.small {

@@ -28,7 +28,7 @@ header {
 	text-align: center;
 }
 
-header a.head {
+header a.head img {
 	text-decoration: none;
 	color: #000;
 	border-bottom: none;
@@ -40,10 +40,21 @@ header a.head {
 	box-shadow: 0 0px 4px 0 rgba(0,0,0,0.15), 0 0px 12px 0 rgba(0,0,0,0.10);
 }
 
-header a.head:hover {
+header a.head img.small {
+	width: 75px;
+	height: 75px;
+	margin-bottom: 10px;
+}
+
+header a.head h1 {
+	font-weight: bold;
+}
+
+header a.head:hover img {
 	color: #666;
 	opacity: .8;
 }
+header a.head h1.small
 
 header img {
 	width: 125px;

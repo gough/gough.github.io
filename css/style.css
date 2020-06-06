@@ -28,6 +28,10 @@
 		color: #777 !important;
 	}
 
+	footer .social a {
+		color: #555 !important;
+	}
+
 	footer:before,
 	section:before {
 		border-color: #a5a5a5 !important;

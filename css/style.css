@@ -24,9 +24,16 @@
 		border-bottom: none !important;
 	}
 
-	.social a:hover {
+	.social a:hover { 
 		color: #777 !important;
 	}
+
+	footer:before,
+	section:before {
+		border-color: #a5a5a5 !important;
+		background: #191919 !important;
+		box-shadow: #191919 0 0 0 5px !important;
+*/	}
 }
 
 html {
